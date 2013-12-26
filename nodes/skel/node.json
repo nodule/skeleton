@@ -1,0 +1,23 @@
+{
+  "name": "boolean",
+  "ns": "skeleton",
+  "description": "Boolean",
+  "phrases": {
+    "active": "Creating boolean value {input.boolean}"
+  },
+  "ports": {
+    "input": {
+      "boolean": {
+        "title": "Boolean",
+        "type": "boolean",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "boolean"
+      }
+    }
+  }
+}
