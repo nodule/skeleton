@@ -1,0 +1,36 @@
+{
+  "name": "skeleton",
+  "description": "Skeleton Template for Chiχ nodules",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/skeleton.git"
+  },
+  "nodes": [
+    {
+      "ports": {
+        "input": {
+          "boolean": {
+            "title": "Boolean",
+            "type": "boolean",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "boolean"
+          }
+        }
+      },
+      "phrases": {
+        "active": "Creating boolean value {input.boolean}"
+      },
+      "description": "Boolean",
+      "ns": "skeleton",
+      "name": "boolean",
+      "fn": "output.out = input.boolean\n"
+    }
+  ],
+  "twigs": []
+}
