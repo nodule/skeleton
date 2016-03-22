@@ -1,1 +1,1 @@
-output.out = $.get('boolean")
+output.out = $.get('boolean')

@@ -29,7 +29,7 @@
       "description": "Boolean",
       "ns": "skeleton",
       "name": "boolean",
-      "fn": "output.out = input.boolean\n"
+      "fn": "output.out = $.get('boolean')\n"
     }
   ],
   "twigs": []
